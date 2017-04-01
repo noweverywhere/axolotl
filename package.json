@@ -1,0 +1,14 @@
+{
+  "name": "axolotl",
+  "version": "1.0.0",
+  "description": "Axolotl game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axolotl"
+  ],
+  "author": "noweverywhere",
+  "license": "ISC"
+}
