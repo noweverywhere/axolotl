@@ -1,3 +1,4 @@
-import pixi from 'pixi.js'
+import 'pixi.js'
 
-var app = new PIXI.Application()
+let app = new global.PIXI.Application(400, 400, {backgroundColor: 0xff99bb})
+document.body.appendChild(app.view)
