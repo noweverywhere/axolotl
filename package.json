@@ -10,5 +10,12 @@
     "axolotl"
   ],
   "author": "noweverywhere",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^4.4.4"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
 }
