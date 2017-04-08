@@ -14,7 +14,9 @@
   "author": "noweverywhere",
   "license": "ISC",
   "dependencies": {
-    "pixi.js": "^4.4.4"
+    "pixi.js": "^4.4.4",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1"
   },
   "devDependencies": {
     "standard": "^9.0.2",
