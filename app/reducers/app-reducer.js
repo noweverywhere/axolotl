@@ -7,6 +7,7 @@ const initialState = {
 const actions = {
   [APP_LOADED]: (state, action) => {
     return {
+      ...state,
       assetsLoaded: true
     }
   }
