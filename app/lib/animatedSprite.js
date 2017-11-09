@@ -1,6 +1,13 @@
+import watch from 'redux-watch'
 import {SPRITE_LOADED, SPRITE_LOADING} from '../actions/sprites'
 import store from '../store'
 const sprite = {}
+
+const spriteChangeSubsciber = watch(store.getState, 'sprites')
+store.subscribe(spriteChangeSubsciber ((newVal, oldVal, objectPath) => {
+  debugger
+  //console.log('%s changed from %s to %s', objectPath, oldVal.axolotl.status, newVal.axolotl.status)
+}))
 
 let loader = global.PIXI.loader
 loader.add([
